@@ -1,5 +1,6 @@
 # Instructions
 
+
 Please read through the instructions carefully.
 
 ## Requirements
@@ -84,3 +85,9 @@ $ npm run download <question-name>
 - For daily exercises the pull request should be created before 8 PM (IST) the next day.
 - For long exercises the pull request should be created before 8 PM (IST) on Monday.
 - Your homework will not be counted as complete if the pull request is not created within the above time frame.
+
+## Note
+
+- **One** question per Pull Request
+- Each Pull Request should have code only related to that question
+- If you have changes related to `babel` etc. please create a separate PR for that and merge it
