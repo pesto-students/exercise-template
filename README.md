@@ -25,6 +25,7 @@ Please read through the instructions carefully.
     1. Create a new branch.
         - For example, if the topic is **Expressing Programs**, the branch can be `solutions-expressing-programs`
     2. Use the commands mentioned below download the questions
+        - Please note that you need to be in the top-level of the your package and not in any sub-folder (like `js-exercises`) to fetch a question.
     3. **Read the README file for instructions.**
     4. Solve the question
     5. Commit the files
@@ -47,6 +48,8 @@ _(Make sure to not commit your `.env`);_
 **You do NOT need to check any checkbox in "Select Scopes" section.** The token is just used to extend the rate limit for downloading files from Github.
 
 ## Docs
+
+**Please ensure you are in the top-level of the package and not in any subfolders (like `js-exercises`).**
 
 ### Fetching a question (npx pesto download -e <question-name>)
 This command lets you fetch a question. Here is an example usage. If you want to fetch a question, you can use `npx pesto download -e <question-name>` and type your question. Here's an example fetching questions `cache-function` and `flip-args`
