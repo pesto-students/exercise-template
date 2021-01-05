@@ -33,7 +33,7 @@ Please read through the instructions carefully.
       - **DO NOT MERGE THE PR**
 
 You can also watch the following video for step by step setup instructions and workflow to submit your solutions
-[Setup instructions](https://www.youtube.com/watch?amp;v=GHNsMf9JiQA&amp)
+[Setup instructions](https://www.youtube.com/watch?&v=GHNsMf9JiQA)
 
 ## Adding `.env` file
 
