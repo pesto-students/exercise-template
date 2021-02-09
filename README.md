@@ -55,20 +55,33 @@ _(Make sure to not commit your `.env`);_
 
 **Please ensure you are in the top-level of the package and not in any subfolders (like `js-exercises`).**
 
-### Fetching a question (npx pesto download -e <question-name>)
-
-This command lets you fetch a question. Here is an example usage. If you want to fetch a question, you can use `npx pesto download -e <question-name>` and type your question. Here's an example fetching questions `cache-function` and `flip-args`
+### Fetching a question
+You can fetch question using `npm` or `yarn` package manager.
 
 ```shell
 $ npm run download <question-name>
 ```
+Example: Fetch `cache-function` question
 
-OR
+```shell
+$ npm run download cache-function
+```
 
 ```shell
 $ yarn run download <question-name>
 ```
 
+Example: Fetch `flip-args` question
+
+```shell
+$ yarn run download flip-args
+```
+
+Alternatively, You can also fetch question with `npx` using following command
+
+```shell
+npx pesto download -e <question-name>
+```
 ## Restrictions
 
 - Don't modify `.babelrc`, `.eslintrc`, `jest.config.json`.
@@ -78,12 +91,13 @@ $ yarn run download <question-name>
   - For example — if the question is to code `add` function, then `add.js` should contain the implementation and `add.test.js` should contain the test cases.
   - For some questions, test cases are provided. **For questions where test cases are missing, you need to add them.**
   - Write tests for all the questions using [Jest](https://jestjs.io/)
-- For daily exercises the pull request should be created before 8 PM (IST) the next day.
-- For long exercises the pull request should be created before 8 PM (IST) on Monday.
+- For daily exercises the pull request should be created before 5 PM (IST) the next day.
+- For long exercises the pull request should be created before 5 PM (IST) on Monday.
 - Your homework will not be counted as complete if the pull request is not created within the above time frame.
 
 ## Note
-
-- **One** question per Pull Request
-- Each Pull Request should have code only related to that question
+- **Do not merge your code in master branch**
+- Pull request should contain only solutions to problems given for a day. It should not have any file for other days solution.
+- For Every Pull Request, It is mandatory for you to add your cohort members and instructor as reviewer. Cohort member should only be added as reviewer post submission deadline.
+- Do not add cohort members as reviewers in Assessment pull requests.
 - If you have changes related to `babel` etc. please create a separate PR for that and merge it
